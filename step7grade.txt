@@ -1,0 +1,39 @@
+
+Step 7 Grading	
+
+Name:   Andrew Schafer
+
+When you have completed the step assignment, complete the following form and compute your assignment grade. Include this file as a text in the folder with your project when you turn it in. Enter the number of points you deserve for each grading category. You may enter partial points if you feel you have partially completed the category.
+
+Total available points:  100
+For each item, if there is a request for the file and line number, indicate that as well so the TA can verify the code.
+
+
+__5___	5 	Submitted correctly (naming, grading sheet, etc.)
+
+
+_20___	20 	Tutorial complete
+
+
+_25___	25 	Layout
+
+
+_20___	20 	setUI() function
+
+
+_10___	10 	Computing distance between two coordinates
+
+
+_10___	10 	Saving new address to preferences
+
+
+__5___	5 	Adding your home coordinates to the program
+
+
+__5___	5 	Getting the call to newLocation() to work
+
+
+__100___	Total (please add the points and include the total here)
+
+The grade you compute is the starting point for course staff, who reserve the right to change the grade if they disagree with your assessment and to deduct points for other issues they may encounter, such as errors in the submission process, naming issues, etc.
+

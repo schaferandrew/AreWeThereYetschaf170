@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.schaf170msu.arewethereyetschaf170.MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/providerLayout">
+        <TextView
+            android:id="@+id/textLabelProvider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/provider"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:paddingEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textProvider"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy"
+            android:layout_toEndOf="@+id/textLabelProvider"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            />
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_below="@+id/providerLayout"
+    android:id="@+id/latitudeLayout">
+    <TextView
+        android:id="@+id/textLabelLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:text="@string/latitude"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/textLatitude"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_toEndOf="@+id/textLabelLatitude" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/latitudeLayout"
+    android:gravity="center_horizontal"
+    android:id="@+id/longitudeLayout"
+    >
+
+    <TextView
+        android:id="@+id/textLongitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:text="@string/longitude"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/textLongitude"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textLongitudeLabel"
+        android:text="@string/dummy"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/newLocLayout"
+    android:gravity="center_horizontal"
+    android:layout_below="@+id/longitudeLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        />
+
+    <TextView
+        android:id="@+id/textNewLocLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/new_location"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/buttonNewLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="80dp"
+        android:onClick="onNew"
+        android:text="@string/newButton" />
+
+
+</LinearLayout>
+
+</RelativeLayout>

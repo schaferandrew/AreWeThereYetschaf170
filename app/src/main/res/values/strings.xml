@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Are We There Yet schaf170</string>
+    <string name="dummy">Dummy</string>
+    <string name="provider">Provider:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="new_location">New Location</string>
+    <string name="newButton">NEW</string>
+    <string name="eb1230">1230 Engineering</string>
+    <string name="sparty">Sparty</string>
+    <string name="home">Home</string>
+    <string name="exception">Failed to communicate with geolocation services</string>
+    <string name="couldnotfind">Unable to locate address</string>
+</resources>
